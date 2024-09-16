@@ -47,18 +47,6 @@ flutter:
   plugin:
     implements: video_player
     platforms:
-      android:
-        package: com.mediadevkit.fvp
-        pluginClass: FvpPlugin
-      ios:
-        pluginClass: FvpPlugin
-        sharedDarwinSource: true
-      linux:
-        dartPluginClass: VideoPlayerRegistrant
-        pluginClass: FvpPlugin
-      macos:
-        pluginClass: FvpPlugin
-        sharedDarwinSource: true
       windows:
         dartPluginClass: VideoPlayerRegistrant
         pluginClass: FvpPluginCApi
